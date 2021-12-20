@@ -1,0 +1,59 @@
+body{
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+}
+.box{
+    background:linear-gradient(#a494e96b,transparent);
+}
+
+.font-mono{
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.title{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #1ba94c;
+}
+
+.center{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.indent-top{
+    margin-top: 7%;
+}
+
+.green{
+    color:#1ba94c;
+}
+
+.bg-green{
+    background-color:#1ba94c;
+}
+
+.bg-image{
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+}
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content-wrap{
+    flex: 1;
+}
+
+.main-footer{
+    color: #1ba94c;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    padding-bottom: 2em;
+}
